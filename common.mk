@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage \
+    $(LOCAL_PATH)/overlay-lineage
 
 AB_OTA_UPDATER := true
 
@@ -29,7 +29,7 @@ AB_OTA_PARTITIONS += \
     dtbo \
     system \
     vendor \
-    vbmeta \
+    vbmeta
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -134,7 +134,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl:64 \
     android.hardware.boot@1.0-service \
-    bootctrl.msmnile \
+    bootctrl.msmnile
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
